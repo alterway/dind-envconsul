@@ -1,0 +1,2 @@
+#!/bin/sh
+/usr/local/bin/envconsul -consul=${CONSUL} -config /etc/envconsul-config.hcl $*
